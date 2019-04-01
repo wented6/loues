@@ -499,4 +499,4 @@ message.guild.members.filter(m => m.presence.status === 'online').forEach(m => {
     }});
 
 
-client.login("NTU2OTIyOTIzNzk3OTcwOTQ1.D3GE0A.OnAshChJq33XGSNHHWQpRy5tBMQ");
+  client.login(process.env.WE);
